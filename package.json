@@ -1,0 +1,60 @@
+{
+  "name": "ai-stocks-analyzer",
+  "version": "1.0.0",
+  "description": "An AI-powered stocks analyzer application for intelligent market analysis and insights",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "build": "tsc",
+    "clean": "rm -rf dist node_modules"
+  },
+  "keywords": [
+    "stocks",
+    "analyzer",
+    "ai",
+    "market-analysis",
+    "trading",
+    "finance"
+  ],
+  "author": "shukrirashid",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/express": "^4.17.21",
+    "typescript": "^5.3.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "@types/jest": "^29.5.8",
+    "eslint": "^8.54.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "prettier": "^3.1.0",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shukrirashid/ai-stocks-analyzer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shukrirashid/ai-stocks-analyzer/issues"
+  },
+  "homepage": "https://github.com/shukrirashid/ai-stocks-analyzer#readme"
+}
