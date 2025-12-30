@@ -375,7 +375,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 📖 [Documentation](docs/)
 - 🐛 [Issue Tracker](https://github.com/shukrirashid/ai-stocks-analyzer/issues)
 - 💬 [Discussions](https://github.com/shukrirashid/ai-stocks-analyzer/discussions)
-- 📧 Email: shukrirashid@example.com
+- 📧 Email: shukrirashidtrader@gmail.com
 
 ## Disclaimer
 
